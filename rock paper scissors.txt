@@ -1,0 +1,8 @@
+x,y = input(),input()
+ig = ['камень','бумага','ножницы']
+if ig.index(x)-ig.index(y)==1 or ig.index(x)-ig.index(y)==-2:
+    print('Тимур')
+if ig.index(x)-ig.index(y)==-1 or ig.index(x)-ig.index(y)==2:
+    print('Руслан')
+if ig.index(x)-ig.index(y)==0:
+    print('ничья')
