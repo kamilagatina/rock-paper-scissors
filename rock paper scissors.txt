@@ -5,4 +5,4 @@ if ig.index(x)-ig.index(y)==1 or ig.index(x)-ig.index(y)==-2:
 if ig.index(x)-ig.index(y)==-1 or ig.index(x)-ig.index(y)==2:
     print('second win')
 if ig.index(x)-ig.index(y)==0:
-    print('draw')
+    print('dead heat')
