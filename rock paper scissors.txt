@@ -1,4 +1,6 @@
-x,y = input(),input()
+import random
+x,y = random.choice(ig),random.choice(ig)
+print(x,y,sep = '\n')
 ig = ['rock','paper','scissors']
 if ig.index(x)-ig.index(y)==1 or ig.index(x)-ig.index(y)==-2:
     print('first win')
